@@ -1,41 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hafedEfheij 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-microverseinc
-/
-linters-config
-10
-81
-302
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-linters-config/html-css/.github/workflows/linters.yml
-@bolah2009
-bolah2009 Add csstree validator plugin to Styllint config (#79)
-…
-Latest commit f0c8127 on Jul 8, 2020
- History
- 2 contributors
-@MauricioRobayo@bolah2009
-48 lines (45 sloc)  1.45 KB
-  
 name: Linters
 
 on: pull_request
@@ -84,16 +46,3 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
